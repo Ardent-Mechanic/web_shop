@@ -1,33 +1,49 @@
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background: #c7b39b; /* Цвет фона и путь к файлу */
+}
+
+
 * {
     font-size: 14px;
     font-weight: normal;
     box-sizing: border-box;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
+
 h1, h2, h3, h4, h5, h6, p, ul, ol {
     margin: 0;
     padding: 0;
 }
+
 .contact_section {
     margin: 0 0 60px 0;
     text-align: center;
 }
+
 .contact_info p {
     line-height: 28px;
     display: block;
     font-size: 14px;
-    color: #ff;
+    color: #ffffff;
     margin: 0 0 30px;
 }
+
 .footer_wrapper .social_links {
     text-align: left;
     margin-bottom: 25px;
 }
+
 .social_links li {
     display: inline-block;
     margin-right: 4px;
     padding: 0px;
 }
+
 .contact .social_links li a {
     display: block;
     text-align: center;
@@ -37,20 +53,24 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
     height: 32px;
     line-height: 32px;
 }
-@media (min-width: 1200px){
+
+@media (min-width: 1200px) {
     .col-lg-4 {
         width: 33.33333333%;
     }
 }
-.contact_section h2{
+
+.contact_section h2 {
     font-size: 40px;
     color: #ffffff;
     margin: 0 0 50px 0;
 }
+
 .page_section.contact {
     padding: 60px 0 50px;
     color: #fff;
 }
+
 .footer_wrapper {
     background: #343a40;
 }
@@ -79,7 +99,8 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
 .footer_bottom span a:hover {
     color: #fff;
 }
-.form-control{
+
+.form-control {
     padding: 12px 15px;
     border-color: #5a5a5a;
     border-radius: 0;
@@ -87,12 +108,14 @@ h1, h2, h3, h4, h5, h6, p, ul, ol {
     background: #000;
     height: auto;
 }
+
 .help-block {
     display: block;
     margin-top: 5px;
     margin-bottom: 10px;
     color: #737373;
 }
+
 .send_msg {
     color: #000000;
     background-color: #ffffff;
